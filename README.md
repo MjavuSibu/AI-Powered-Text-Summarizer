@@ -1,6 +1,6 @@
 # AI-Powered Text Summarizer
 
-A production-quality desktop application for summarizing long texts using multiple AI-powered methods. Built with Python and PyQt6, this project is designed as a portfolio-ready example of a modern AI productivity tool.
+A production-quality desktop application for summarizing long texts using multiple AI-powered methods. Built with Python and PyQt6, this project is designed as an example of a modern AI productivity tool.
 
 ---
 
