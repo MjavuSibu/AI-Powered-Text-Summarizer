@@ -1,49 +1,13 @@
-# ============================================================
-# AI-Powered Text Summarizer — Python Dependencies
-# ============================================================
-# Install all dependencies with:
-#   pip install -r requirements.txt
-#
-# For GPU-accelerated inference (optional, requires CUDA):
-#   pip install torch --index-url https://download.pytorch.org/whl/cu118
-# ============================================================
 
-
-# --- Core GUI Framework ---
 PyQt6>=6.6.0
 PyQt6-sip>=13.6.0
-
-
-# --- AI & NLP: Abstractive Summarization ---
-# HuggingFace Transformers for BART and T5 models.
 transformers>=4.38.0
-# PyTorch (CPU version). Replace with a GPU build for faster inference.
 torch>=2.2.0
-# Required by HuggingFace tokenizers.
 sentencepiece>=0.1.99
-# Accelerates HuggingFace model loading.
 accelerate>=0.27.0
-
-
-# --- AI & NLP: Extractive Summarization ---
-# Sumy provides LSA, LexRank, Luhn, and TextRank algorithms.
 sumy>=0.11.0
-# NLTK is used by Sumy for tokenization and stopword lists.
 nltk>=3.8.1
-
-
-# --- AI: LLM API Summarization ---
-# Official OpenAI Python client library.
 openai>=1.14.0
-
-
-# --- File Handling ---
-# pdfplumber extracts text from PDF documents.
 pdfplumber>=0.10.3
-# ReportLab generates the exported PDF summaries.
 reportlab>=4.1.0
-
-
-# --- Utilities ---
-# python-dotenv loads API keys from a .env file.
 python-dotenv>=1.0.1
